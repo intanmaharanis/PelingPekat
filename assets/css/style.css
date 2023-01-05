@@ -1,0 +1,650 @@
+* {
+	font-family: 'Lato',
+		sans-serif;
+
+}
+
+a {
+	border: 2px solid transparent;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-toggler i {
+	color: white;
+	font-size: 24px;
+}
+
+.user-nav .link-nav {
+	color: white;
+	font-size: 18px;
+	display: block;
+	margin: 0 20px;
+}
+
+.link-nav:hover {
+	text-decoration: none;
+}
+
+.user-nav .link-nav:hover::after,
+.link-aktif::after {
+	content: "";
+	display: block;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #EBA138;
+}
+
+
+.jumbotron-fluid {
+	background-image: url('../images/image-5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+
+}
+
+.jumbotron::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 75%);
+}
+
+.jumbotron .container {
+	z-index: 1;
+	position: relative;
+	margin-top: 80px;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	padding-top: 15px;
+	width: 700px;
+	font-weight: 800;
+}
+
+.jumbotron p {
+	font-size: 22px;
+	width: 500px;
+	padding-top: 8px;
+}
+
+.btn-size {
+	padding: 15px 100px;
+	font-size: 25px;
+	border-radius: 50px;
+	background-color: #005A15;
+	color: white;
+	border: 1px solid #0A6920
+}
+
+
+.dropdown-menu a {
+	color: white;
+	font-size: 18px;
+}
+
+.login-form figure {
+	width: 100px;
+	height: 100px;
+}
+
+.sub-judul {
+	color: #0A5C2B;
+	font-size: 42px;
+	font-weight: 700;
+	padding: 20px 30px 5px;
+}
+
+.judul-deskripsi {
+	font-size: 20px;
+	padding: 0px 30px;
+}
+
+.makanan {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 250px;
+	border-radius: 20px;
+}
+
+.makanan-link a {
+	color: #0A2469;
+	font-size: 20px;
+
+}
+
+.makanan-link a:hover {
+	color: #0A5C2B;
+	font-size: 24px;
+}
+
+.makanan .gambar {
+	height: 100%;
+	width: 300px;
+
+}
+
+.gambar-makanan {
+	border: 2px solid black;
+	width: 200px;
+	padding: 12px;
+	margin: 10px;
+	height: 200px;
+	border: 2px dashed #ced4da;
+}
+
+.gambar-makanan input[type=file] {
+	font-size: 14px;
+}
+
+.makanan .card-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+
+.info-makanan i {
+	color: #88898b;
+	font-size: 14px;
+}
+
+.makanan-deskripsi {
+	display: -webkit-box;
+	max-width: 600px;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.makanan img {
+	border-radius: 20px 0 0 20px;
+}
+
+.makanan img,
+.detail-makanan img,
+.listgambar img,
+.donasi img,
+.hero-image img,
+.gambar-testi img,
+.top-image img,
+.gambar-testi img,
+.gambar-testi video
+ {
+	height: 100%;
+	width: 100%;
+}
+
+.detail-produk {
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.detail-makanan {
+	font-family: 'Lato',
+		sans-serif;
+}
+
+.image-detail {
+	width: 500px;
+	height: 500px;
+}
+
+.tanggal-detail {
+	font-size: 16px;
+	padding-top: 10px;
+
+}
+
+#status,
+.badge {
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.list-makanan {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 250px;
+	border-radius: 20px;
+	border: 2px solid black;
+	margin: 10px 25px;
+}
+
+.listgambar {
+	height: 100%;
+	width: 200px;
+	border: 2px solid black;
+
+}
+
+.donasi-deskripsi {
+	width: 70%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	color: #0A5C2B;
+	letter-spacing: 1px;
+}
+
+.donasi-container {
+	margin: 85px 0;
+
+}
+
+.donasi-detail {
+	background-color: #FFEEF8;
+}
+
+.dashboard .card {
+	margin: 0px;
+}
+
+.nav-admin {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+
+
+.sidebar {
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+	background: #39670B;
+	min-height: 100vh;
+}
+
+.nav-admin .nav-link {
+	color: #35600A !important;
+	font-weight: bold;
+}
+
+.sidebar ul li a span,
+.sidebar ul li a i {
+	color: white !important
+}
+
+.sidebar .nav-link {
+	color: white !important;
+}
+
+.aktif::after {
+	content: "";
+	display: block;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 7px;
+	border-bottom: 2px solid white;
+}
+
+.dataTables_wrapper label {
+	display: inline-flex !important;
+	margin: 20px;
+	padding-right: 10px
+}
+
+.dataTables_wrapper input,
+select {
+	margin: 0 10px;
+}
+
+
+.total-donasi {
+	margin: 100px 0px;
+	text-align: center;
+	padding: 60px 0;
+	color: #0A6920;
+	background-color: #ffeef8;
+
+}
+
+.total-donasi h2 {
+	font-weight: 600;
+
+}
+
+.total-donasi h1 {
+	font-weight: 800;
+
+}
+
+.cara-memesan .nomor {
+	background-color: #FFBAE3;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding-top: 8px;
+	color: #67003E;
+	font-weight: 600;
+	margin-right: 24px;
+}
+
+.cara-memesan h4 {
+	font-weight: 700;
+	color: #282D2A;
+	font-size: 24px;
+	padding: 10px 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.avatar-penerima {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: #e8e8e8;
+	color: #666464;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.top-donatur-container {
+	background-image: linear-gradient(to bottom, #7C34E9, #C9ABF6);
+	margin-top: 4em;
+}
+
+.kotak {
+	width: 150px;
+	height: 200px;
+	border-radius: 2px 0px 0px 2px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.kotak-1 {
+	width: 150px;
+	height: 25px;
+	border-bottom: 35px solid #8AADFF;
+	border-left: 20px solid transparent;
+}
+
+.kotak-2 {
+	background: #0036B3;
+}
+
+.kotak-3 {
+	width: 150px;
+	height: 0px;
+	border-bottom: 35px solid #9DFF73;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+.kotak-4 {
+	background: #36B300;
+	height: 250px;
+}
+
+.kotak-5 {
+	width: 150px;
+	height: 30px;
+	border-bottom: 35px solid #FF6593;
+	border-right: 20px solid transparent;
+}
+
+.kotak-6 {
+	background: #B30036;
+}
+
+.top-image {
+	width: 120px;
+	height: 120px;
+	margin: 10px auto 100px;
+}
+
+.top-image:hover {
+	transform: scale(1.1);
+}
+
+.top-donatur h6{
+	font-size: 18px;
+}
+
+.top-donatur h5{
+	font-size: 26px;
+}
+
+.top-image img {
+	border: 2px solid white;
+	padding: 5px;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.dampak-container h4 {
+	color: #376D25;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.dampak-container p {
+	color: #9a9a9a;
+	padding-top: 10px;
+	font-size: 16px;
+
+}
+
+.total-donasi-h h2 {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.donasi-hari .col-3,
+.donasi-hari .col-4 {
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+		rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.dataTables_filter {
+	float: right;
+}
+
+@media (max-width: 768px) {
+
+
+	.jumbotron h1 {
+		font-size: 34px;
+		width: 100%;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.jumbotron-fluid {
+		background-size: 100% cover;
+		min-height: 60vh;
+		z-index: 0;
+		margin-top: 0px;
+	}
+
+	.btn-size {
+		padding: 10px 50px;
+		font-size: 16px;
+		/* border-radius: 50px; */
+	}
+
+	.sub-judul {
+		padding: 18px 12px 0px;
+		font-size: 34px;
+
+	}
+
+	.judul-deskripsi {
+		padding-left: 16px;
+		font-size: 16px;
+
+	}
+
+	.makanan-tersedia a {
+		font-size: 16px;
+	}
+
+	.makanan {
+		height: 150px;
+		border-radius: 20px;
+		/* line-height: 25px; */
+	}
+
+	.makanan .card-title {
+		padding-top: 5px;
+		font-size: 18px;
+		margin-bottom: 4px;
+	}
+
+	.makanan .gambar {
+		height: 100%;
+		width: 150px;
+	}
+
+	.info-makanan i {
+		font-size: 10px;
+	}
+
+	.makanan-deskripsi {
+		margin-bottom: 15px;
+		font-size: 14px;
+		display: -webkit-box;
+		max-width: 200px;
+		max-height: 20px;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.makanan .btn {
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+
+	.link-aktif::after,
+	.user-nav .link-nav:hover::after {
+		width: 20%;
+		margin: 0;
+
+
+	}
+
+	.user-nav .link-nav {
+		padding-top: 10px;
+	}
+
+	.donasi-container {
+		padding: 0;
+	}
+
+	.donasi-deskripsi {
+		padding-top: 20px;
+		font-size: 18px;
+
+	}
+
+	.total-donasi .col-md-3 {
+		padding: 10px 0;
+	}
+
+	.cara-memesan h2 {
+		font-size: 26px;
+		font-weight: 700;
+	}
+
+	.cara-memesan .nomor {
+		font-size: 18px;
+		width: 40px;
+		height: 40px;
+		padding-top: 10px;
+
+	}
+
+	.cara-memesan h4 {
+		font-size: 18px;
+	}
+
+	.cara-memesan p {
+		font-size: 14px;
+	}
+	.kotak {
+		width: 100px;
+		height: 130px;
+		font-size: 20px;
+	}
+
+	.kotak-1 {
+		width: 100px;
+		height: 25px;
+		border-bottom: 20px solid #8AADFF;
+		border-left: 15px solid transparent;
+	}
+
+	.kotak-3 {
+		width: 100px;
+		height: 0px;
+		border-bottom: 20px solid #9DFF73;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+	}
+	.kotak-4 {
+		height: 200px;
+	}
+	.kotak-5 {
+		width: 100px;
+		border-bottom: 15px solid #FF6593;
+		border-right: 15px solid transparent;
+	}
+
+	.top-image {
+		width: 60px;
+		height: 60px;
+	}
+	.top-donatur h6{
+		font-size: 14px;
+	}
+
+	.top-donatur h5{
+		font-size: 18px;
+	}
+
+	.dampak-container h4 {
+		font-size: 10px;
+}
+
+.dampak-container p {
+	font-size: 8px;
+}
+.dampak-container img{
+	width: 200px;
+	height: 200px;
+}
+.avatar-penerima {
+	align-self: center;
+	font-size: 10px;
+	width: 50px;
+	height: 50px;
+
+}
+.detail-penerima h6{
+	font-size: 12px;
+}
+
+}
